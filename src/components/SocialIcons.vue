@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-row gap-5" data-aos="flip-up">
-    <a href="www.github.com/bartoginski" target="_blank">
+  <div class="flex flex-row gap-5 py-10" data-aos="flip-up">
+    <a href="https://www.github.com/bartoginski" target="_blank">
       <svg viewBox="0 0 128 128" :class="mediaIconClass">
         <g>
           <path
@@ -18,10 +18,24 @@
       href="https://pl.linkedin.com/in/bartosz-ogi%C5%84ski-004b6a218"
       target="_blank"
     >
-      <svg viewBox="0 0 128 128" :class="mediaIconClass"  >
+      <svg viewBox="0 0 128 128" :class="mediaIconClass">
         <path
           d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"
         ></path>
+      </svg>
+    </a>
+    <a
+      href="https://youtu.be/dQw4w9WgXcQ"
+      target="_blank"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        :class="mediaIconClass"
+      >
+        <path
+          d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+        />
       </svg>
     </a>
   </div>
@@ -31,7 +45,8 @@
 export default {
   data() {
     return {
-      mediaIconClass: "h-10 w-10 fill-current dark:text-white hover:text-fire dark:hover:text-fire transition-colors",
+      mediaIconClass:
+        "h-10 w-10 fill-current dark:text-white hover:text-fire dark:hover:text-fire transition-colors",
     };
   },
 };
