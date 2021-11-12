@@ -1,5 +1,5 @@
 <template>
- <section class="grid grid-cols-2 gap-x-10 gap-y-5 list-disc ">
+ <section class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 list-disc ">
         <div data-aos="fade-right"
             data-aos-delay="300">
           <h2 class="text-3xl text-header text-fire font-bold">Info</h2>

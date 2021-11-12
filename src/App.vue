@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full bg-white dark:bg-black">
+  <div class="min-h-full bg-white dark:bg-black overflow-hidden px-20 md-px-0">
     <ModeBtn />
     <main
       class="
