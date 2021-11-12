@@ -20,7 +20,17 @@
     <!-- floating button -->
     <div class="">
       <button
-        class="fixed bottom-5 right-5 bg-fire text-white p-2 rounded-lg w-10 shake-slow"
+        class="
+          fixed
+          bottom-5
+          right-5
+          bg-fire
+          text-white
+          p-2
+          rounded-lg
+          w-10
+          shake-slow
+        "
         @click="isEnglish = !isEnglish"
       >
         {{ isEnglish ? "PL" : "EN" }}
