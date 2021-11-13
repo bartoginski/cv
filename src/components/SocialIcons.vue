@@ -27,6 +27,7 @@
     <a
       href="https://youtu.be/dQw4w9WgXcQ"
       target="_blank"
+      class="cursor-wait"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

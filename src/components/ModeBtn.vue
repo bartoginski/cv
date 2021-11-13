@@ -27,12 +27,13 @@
           dark:border-white
           rounded-full
           relative
+          cursor-pointer
         "
       >
-          <div class="h-5 w-5 rounded-full bg-red-400 absolute transition-all " :class="{'translate-x-0 left-0': isLightMode, 'left-2/4 translate-x-2/4': !isLightMode} "></div>
+          <div class="h-5 w-5 rounded-full bg-red-400 absolute transition-all " :class="{'translate-x-0 right-0': isLightMode, 'right-2/4 -translate-x-2/4': !isLightMode} "></div>
       </div>
       <svg
-        class="w-8 h-8 fill-current text-fire dark:text-gray-500 transition-all"
+        class="w-8 h-8 fill-current text-fire dark:text-gray-500 transition-all cursor-pointer"
         version="1.1"
         id="Capa_1"
         xmlns="http://www.w3.org/2000/svg"
