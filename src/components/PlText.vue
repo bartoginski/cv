@@ -59,26 +59,35 @@
       <p>
         <span class="flex items-center gap-2">
           <b>Email:</b>
-          <a href="mailto:bartoginski@outlook.com">bartoginski@outlook.com</a>
+          <a :href="'mailto:' + data['email']">{{ data["email"] }}</a>
         </span>
         <span class="flex items-center gap-2">
           <b>Github:</b>
-          <a href="https://www.github.com/bartoginski">@bartoginski</a>
+          <a :href="data['githubLink']">{{ data["githubNick"] }}</a>
         </span>
         <span class="flex items-center gap-2">
-          <b>Numer telefonu:</b> +48 575 692 658
+          <b>Numer telefonu:</b> {{ data["phone"] }}
         </span>
         <span class="flex items-center gap-2">
-          <b>Data urodzenia:</b> 18.05.2003
+          <b>Data urodzenia:</b> {{ data["birthday"] }}
         </span>
-        <span class="flex items-center gap-2"> <b>Miasto:</b> Chorzów </span>
+        <span class="flex items-center gap-2">
+          <b>Miasto:</b> {{ data["city"] }}</span
+        >
       </p>
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+import contactInfo from "../data/contactInfo";
+export default {
+  data() {
+    return {
+      data: contactInfo,
+    };
+  },
+};
 </script>
 
 <style scoped>
