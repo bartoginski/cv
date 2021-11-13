@@ -26,7 +26,7 @@
         informatyk. Pierwszą, jak i drugą klasę ukończyłem z wyróznieniem,
         ponadto otrzymałem stypendium naukowe.
         Jestem absolwentem Szkoły Mistrzostwa Sporotowego w Bytomiu, którą
-        równieć zdałem, z wyróżnieniem za wyniki w nauce. Ukończyłem także praktyki w firmie Devesoft, z oceną celującą.
+        równieć zdałem, z wyróżnieniem za wyniki w nauce. Ukończyłem także praktyki w firmie <span class="text-fire">Devesoft</span>, z oceną celującą.
       </p>
     </div>
 
