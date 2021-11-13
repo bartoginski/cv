@@ -25,7 +25,9 @@
       <p>
         I am currently attending the third year of technical school, majoring in
         IT specialist. I graduated first and second class with honors, moreover
-        I received a scholarship. I am a graduate of the SMS (junior high school) in Bytom, which I also passed with distinction for academic achievement.
+        I received a scholarship. I am a graduate of the SMS (junior high
+        school) in Bytom, which I also passed with distinction for academic
+        achievement. I also did an internship at <span class="text-fire">Devesoft</span>, with a possible top rating. 
       </p>
     </div>
 

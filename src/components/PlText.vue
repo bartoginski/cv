@@ -16,7 +16,7 @@
         rozwój. Programowaniem zajawiłem się na początku 2019 roku. Po dwóch
         latach nauki podjąłem się pracy jako Frontend developer, głównie tworząc
         strony przy użyciu Wordpress'a. Planuje dalej rozwijać się "na froncie",
-        ale bacznie obserwuje również świat aplikacji mobilnych.
+        ale bacznie obserwuje również świat aplikacji mobilnych. 
       </p>
     </div>
     <div data-aos="fade-left" data-aos-delay="300">
@@ -24,9 +24,9 @@
       <p>
         Aktualnie uczęszczam do trzeciej klasy technikum, o kierunku technik
         informatyk. Pierwszą, jak i drugą klasę ukończyłem z wyróznieniem,
-        ponadto otrzymałem stypendium naukowe.<br />
+        ponadto otrzymałem stypendium naukowe.
         Jestem absolwentem Szkoły Mistrzostwa Sporotowego w Bytomiu, którą
-        również zdałem, z wyróżnieniem za wyniki w nauce.
+        równieć zdałem, z wyróżnieniem za wyniki w nauce. Ukończyłem także praktyki w firmie Devesoft, z oceną celującą.
       </p>
     </div>
 
@@ -93,5 +93,6 @@ export default {
 <style scoped>
 a {
   color: #f54748;
+  transition: opacity 0.5s ;
 }
 </style>
