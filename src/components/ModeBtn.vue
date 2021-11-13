@@ -2,7 +2,7 @@
   <div class="flex justify-end p-4">
     <div class="flex flex-row items-center gap-2">
       <svg
-        class="w-8 h-8 fill-current text-gray-500 dark:text-fire"
+        class="w-8 h-8 fill-current text-gray-500 dark:text-fire transition-all"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
@@ -22,21 +22,17 @@
         @click="toggleMode"
         class="
           h-6
-          w-10
+          w-11
           border-2 border-black
           dark:border-white
           rounded-full
-          flex
-          justify-start
+          relative
         "
-        :class="{ 'justify-end': isLightMode }"
       >
-        <div>
-          <div class="h-5 w-5 rounded-full bg-red-400"></div>
-        </div>
+          <div class="h-5 w-5 rounded-full bg-red-400 absolute transition-all " :class="{'translate-x-0 left-0': isLightMode, 'left-2/4 translate-x-2/4': !isLightMode} "></div>
       </div>
       <svg
-        class="w-8 h-8 fill-current text-fire dark:text-gray-500"
+        class="w-8 h-8 fill-current text-fire dark:text-gray-500 transition-all"
         version="1.1"
         id="Capa_1"
         xmlns="http://www.w3.org/2000/svg"
