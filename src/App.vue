@@ -57,4 +57,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+* {
+  font-family: "Barlow", sans-serif;
+}
+</style>
