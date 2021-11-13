@@ -12,8 +12,11 @@
     <div data-aos="fade-right" data-aos-delay="300">
       <h2 class="text-3xl text-header text-fire font-bold">O mnie</h2>
       <p>
-        Jestem bardzo ambitną osobą, znaczną część wolnego czasu przeznaczam na rozwój. Programowaniem zajawiłem się na początku 2019 roku.
-        Po dwóch latach nauki podjąłem się pracy jako Frontend developer, głównie tworząc strony przy użyciu Wordpress'a. Planuje dalej rozwijać się "na froncie", ale bacznie obserwuje również świat aplikacji mobilnych.
+        Jestem bardzo ambitną osobą, znaczną część wolnego czasu przeznaczam na
+        rozwój. Programowaniem zajawiłem się na początku 2019 roku. Po dwóch
+        latach nauki podjąłem się pracy jako Frontend developer, głównie tworząc
+        strony przy użyciu Wordpress'a. Planuje dalej rozwijać się "na froncie",
+        ale bacznie obserwuje również świat aplikacji mobilnych.
       </p>
     </div>
     <div data-aos="fade-left" data-aos-delay="300">
@@ -29,7 +32,7 @@
 
     <div data-aos="fade-left" data-aos-delay="300">
       <h2 class="text-3xl text-header text-fire font-bold">Umiejętności</h2>
-      <p>
+      <div>
         <ul class="list-disc ml-4">
           <li>JavaScript - Vuejs</li>
           <li>Wordpress</li>
@@ -37,23 +40,30 @@
           <li>Tailwindcss</li>
           <li>Flutter (początek przygody)</li>
         </ul>
-      </p>
+      </div>
     </div>
     <div data-aos="fade-right" data-aos-delay="300">
       <h2 class="text-3xl text-header text-fire font-bold">
         Doświadczenie zawodowe
       </h2>
       <p>
-        Pracowałem przez 9 miesięcy na stanowisku Wordpress developer w firmie <a href="https://nolimitplan.pl/">FitGenerator</a>.
-        Byłem odpowiedzialny m. in. za stworzenie platformy <a href="https://smacznepapu.pl/">SmacznePapu</a>.
-        Aktualnie pracuje na podobnym stanowisku w firmie <a  href="https://imado.co">IMADO</a>.
+        Pracowałem przez 9 miesięcy na stanowisku Wordpress developer w firmie
+        <a href="https://nolimitplan.pl/">FitGenerator</a>. Byłem odpowiedzialny
+        m. in. za stworzenie platformy
+        <a href="https://smacznepapu.pl/">SmacznePapu</a>. Aktualnie pracuje na
+        podobnym stanowisku w firmie <a href="https://imado.co">IMADO</a>.
       </p>
     </div>
     <div data-aos="fade-left" data-aos-delay="300">
       <h2 class="text-3xl text-header text-fire font-bold">Kontakt</h2>
       <p>
         <span class="flex items-center gap-2">
-          <b>Email:</b> bartoginski@outlook.com
+          <b>Email:</b>
+          <a href="mailto:bartoginski@outlook.com">bartoginski@outlook.com</a>
+        </span>
+        <span class="flex items-center gap-2">
+          <b>Github:</b>
+          <a href="https://www.github.com/bartoginski">@bartoginski</a>
         </span>
         <span class="flex items-center gap-2">
           <b>Numer telefonu:</b> +48 575 692 658
@@ -73,7 +83,6 @@ export default {};
 
 <style scoped>
 a {
-  color: #F54748;
+  color: #f54748;
 }
-
 </style>
