@@ -15,9 +15,10 @@
         I am a very ambitious person, much of my free time is spent on
         development. I got into programming at the beginning of 2019. After two
         years of learning I took up a job as a Frontend developer, mainly
-        creating websites using Wordpress. I plan to continue developing "on the
-        frontend", but I am also keeping a close eye on the world of mobile
-        applications.
+        creating websites using Wordpress. From CMS I jumped into JamStack
+        world, now I'm writing apps in Nuxtjs technology. I plan to continue
+        developing "on the frontend", but I am also keeping a close eye on the
+        world of mobile applications.
       </p>
     </div>
     <div data-aos="fade-left" data-aos-delay="300">
@@ -27,7 +28,9 @@
         IT specialist. I graduated first and second class with honors, moreover
         I received a scholarship. I am a graduate of the SMS (junior high
         school) in Bytom, which I also passed with distinction for academic
-        achievement. I also did an internship at <span class="text-fire">Devesoft</span>, with a possible top rating. 
+        achievement. I also did an internship at
+        <span class="text-fire">Devesoft</span>, with a possible top rating.
+        Except for school I spend a lot of my time on self-development.
       </p>
     </div>
 
@@ -51,9 +54,10 @@
         I worked for 9 months as a wordpress developer at a company
         <a href="https://nolimitplan.pl/">FitGenerator</a>. I was responsible
         for creation of
-        <a href="https://smacznepapu.pl/">SmacznePapu</a> platform. Currently, I
-        am working on a similar position at
-        <a href="https://imado.co">IMADO</a>.
+        <a href="https://smacznepapu.pl/">SmacznePapu</a> platform. Then, I am
+        worked on a similar position at <a href="https://imado.co">IMADO</a>.
+        Currently, I am working as FrontEnd Developer in
+        <a href="https://www.softgorillas.com/">Soft Gorillas</a>.
       </p>
     </div>
     <div data-aos="fade-left" data-aos-delay="300">
@@ -61,20 +65,20 @@
       <p>
         <span class="flex items-center gap-2">
           <b>Email:</b>
-          <a :href="'mailto:' + data['email']">{{ data["email"] }}</a>
+          <a :href="'mailto:' + data['email']">{{ data['email'] }}</a>
         </span>
         <span class="flex items-center gap-2">
           <b>Github:</b>
-          <a :href="data['githubLink']">{{ data["githubNick"] }}</a>
+          <a :href="data['githubLink']">{{ data['githubNick'] }}</a>
         </span>
         <span class="flex items-center gap-2">
-          <b>Phone:</b> {{ data["phone"] }}
+          <b>Phone:</b> {{ data['phone'] }}
         </span>
         <span class="flex items-center gap-2">
-          <b>Birthday:</b> {{ data["birthday"] }}
+          <b>Birthday:</b> {{ data['birthday'] }}
         </span>
         <span class="flex items-center gap-2">
-          <b>City:</b> {{ data["city"] }}, Poland</span
+          <b>City:</b> {{ data['city'] }}, Poland</span
         >
       </p>
     </div>
@@ -82,7 +86,7 @@
 </template>
 
 <script>
-import contactInfo from "../data/contactInfo";
+import contactInfo from '../data/contactInfo';
 export default {
   data() {
     return {

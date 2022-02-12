@@ -15,8 +15,12 @@
         Jestem bardzo ambitną osobą, znaczną część wolnego czasu przeznaczam na
         rozwój. Programowaniem zajawiłem się na początku 2019 roku. Po dwóch
         latach nauki podjąłem się pracy jako Frontend developer, głównie tworząc
-        strony przy użyciu Wordpress'a. Planuje dalej rozwijać się "na froncie",
-        ale bacznie obserwuje również świat aplikacji mobilnych. 
+        strony przy użyciu Wordpress'a. Ze stron typu CMS, przeskoczyłem na
+        JamStack, pisząc w technolgii Nuxtjs. W tej technologii aktualnie
+        prowadzę projekt społeczny
+        <a href="https://www.depressout.pl">Depressout</a> mający na celu pomoc
+        ludziom dotkniętym depresją. Planuje dalej rozwijać się "na froncie",
+        ale bacznie obserwuje również świat aplikacji mobilnych.
       </p>
     </div>
     <div data-aos="fade-left" data-aos-delay="300">
@@ -24,9 +28,11 @@
       <p>
         Aktualnie uczęszczam do trzeciej klasy technikum, o kierunku technik
         informatyk. Pierwszą, jak i drugą klasę ukończyłem z wyróznieniem,
-        ponadto otrzymałem stypendium naukowe.
-        Jestem absolwentem Szkoły Mistrzostwa Sporotowego w Bytomiu, którą
-        równieć zdałem, z wyróżnieniem za wyniki w nauce. Ukończyłem także praktyki w firmie <span class="text-fire">Devesoft</span>, z oceną celującą.
+        ponadto otrzymałem stypendium naukowe. Jestem absolwentem Szkoły
+        Mistrzostwa Sporotowego w Bytomiu, którą równieć zdałem, z wyróżnieniem
+        za wyniki w nauce. Ukończyłem także praktyki w firmie
+        <span class="text-fire">Devesoft</span>, z oceną celującą. Oprócz szkoły
+        poświęcam dużą część czasu na samorozwój.
       </p>
     </div>
 
@@ -50,8 +56,10 @@
         Pracowałem przez 9 miesięcy na stanowisku Wordpress developer w firmie
         <a href="https://nolimitplan.pl/">FitGenerator</a>. Byłem odpowiedzialny
         m. in. za stworzenie platformy
-        <a href="https://smacznepapu.pl/">SmacznePapu</a>. Aktualnie pracuje na
-        podobnym stanowisku w firmie <a href="https://imado.co">IMADO</a>.
+        <a href="https://smacznepapu.pl/">SmacznePapu</a>. Później podjąłem się
+        pracy na pdoobnym stanowisku w <a href="https://imado.co">IMADO</a>.
+        Aktualnie pracuje jako FrontEnd Developer w
+        <a href="https://www.softgorillas.com/">Soft Gorillas</a>.
       </p>
     </div>
     <div data-aos="fade-left" data-aos-delay="300">
@@ -59,20 +67,20 @@
       <p>
         <span class="flex items-center gap-2">
           <b>Email:</b>
-          <a :href="'mailto:' + data['email']">{{ data["email"] }}</a>
+          <a :href="'mailto:' + data['email']">{{ data['email'] }}</a>
         </span>
         <span class="flex items-center gap-2">
           <b>Github:</b>
-          <a :href="data['githubLink']">{{ data["githubNick"] }}</a>
+          <a :href="data['githubLink']">{{ data['githubNick'] }}</a>
         </span>
         <span class="flex items-center gap-2">
-          <b>Numer telefonu:</b> {{ data["phone"] }}
+          <b>Numer telefonu:</b> {{ data['phone'] }}
         </span>
         <span class="flex items-center gap-2">
-          <b>Data urodzenia:</b> {{ data["birthday"] }}
+          <b>Data urodzenia:</b> {{ data['birthday'] }}
         </span>
         <span class="flex items-center gap-2">
-          <b>Miasto:</b> {{ data["city"] }}</span
+          <b>Miasto:</b> {{ data['city'] }}</span
         >
       </p>
     </div>
@@ -80,7 +88,7 @@
 </template>
 
 <script>
-import contactInfo from "../data/contactInfo";
+import contactInfo from '../data/contactInfo';
 export default {
   data() {
     return {
@@ -93,6 +101,6 @@ export default {
 <style scoped>
 a {
   color: #f54748;
-  transition: opacity 0.5s ;
+  transition: opacity 0.5s;
 }
 </style>
