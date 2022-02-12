@@ -1,24 +1,13 @@
-# v-cv
 
-## Project setup
-```
-npm install
-```
+# Short About Me 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Super simple website about me.
+My portfolio website is still in building, so You can read about me here [www.bartoginski.github.io/cv](https://www.bartoginski.github.io/cv).
 
-### Compiles and minifies for production
-```
-npm run build
-```
+🚧 Personal website (in development): [www.bartoginski.pl](https://www.bartoginski.pl) 🚧
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Tech Stack
+- Vue3.js 
+- Tailwindcss
+- AOS
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
